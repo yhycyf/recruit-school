@@ -1,0 +1,67 @@
+.section1 {
+  box-sizing: border-box;
+  padding: 0 20px 20px;
+  margin: 0 500px;
+  width: 340px;
+  border: 1px solid #e5e5e5;
+}
+.section1 .header {
+  height: 46px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.section1 .header img {
+  margin-top: 14px;
+  width: 100%;
+}
+.section1 .form_list {
+  margin-top: 10px;
+}
+.section1 .form_list label {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  color: #333333;
+  font-size: 14px;
+}
+.section1 .form_list select {
+  padding: 0 10px;
+  width: 200px;
+  height: 36px;
+  color: #999;
+}
+.section1 .form_list .input {
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 36px;
+}
+.section1 .form_list .input::-webkit-input-placeholder {
+  color: #999;
+}
+.section1 .form_list span {
+  color: red;
+  font-size: 10px;
+  margin-top: -5px;
+}
+.section1 .form_list.sex input {
+  margin-right: 4px;
+}
+.section1 .form_list.sex input:nth-child(3) {
+  margin-left: 20px;
+}
+.section1 .footer {
+  text-align: center;
+  margin-top: 35px;
+  width: 100%;
+}
+.section1 .footer button {
+  margin: 0 auto;
+  width: 130px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background: #50bcbc;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}

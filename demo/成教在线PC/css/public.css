@@ -1,0 +1,147 @@
+/**********  閫氱敤鏍峰紡  *************/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+p,
+blockquote,
+pre,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+hr,
+div,
+span {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 100;
+}
+input,
+button,
+select,
+textarea {
+    outline: none;
+}
+em, i {
+    font-style: normal;
+}
+body {
+    font-size: 12px;
+    font-family: "STHeiti", Arial, "Microsoft YaHei", "SimHei", "SimSun", sans-serif;
+    /* background-color: #f6f6f6; */
+    line-height: 1;
+    min-width: 1200px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+fieldset,
+img,
+button {
+    border: 0
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+    
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input:-ms-input-placeholder {
+    color: #ccc
+}
+
+input:-moz-placeholder {
+    color: #ccc
+}
+
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+textarea:-ms-input-placeholder {
+    color: #ccc
+}
+
+textarea:-moz-placeholder {
+    color: #ccc
+}
+
+.icon {
+    display: inline-block;
+}
+
+.cb {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/********娈佃惤**********/
+.text1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*涓€琛�*/
+.text2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/*涓よ*/
+.text3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/*涓夎*/
+
+.main img{
+    width: 100%;
+    display: block;
+}

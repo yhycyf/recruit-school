@@ -1,0 +1,54 @@
+.recruit1 {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid #e5e5e5;
+}
+.recruit1 .header {
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 100%;
+  height: 46px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.recruit1 .header .left_box {
+  line-height: 46px;
+  float: left;
+}
+.recruit1 .header .left_box h6 {
+  font-weight: bold;
+  font-size: #333333;
+}
+.recruit1 .header .left_box h6 i {
+  width: 10px;
+  height: 18px;
+  display: inline-block;
+  background: url('img/top_qa.png') no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.recruit1 .header .left_box span {
+  color: #50bcbc;
+}
+.recruit1 .header .right_box {
+  line-height: 46px;
+  float: right;
+}
+.recruit1 .recruit_content {
+  height: 728px;
+}
+.recruit1 .recruit_content .recruit_left_content {
+  float: left;
+}
+.recruit1 .recruit_content .recruit_left_content li {
+  width: 150px;
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  text-align: center;
+  line-height: 45px;
+  color: #333333;
+}
+.recruit1 .recruit_content .recruit_right_school {
+  float: left;
+}
