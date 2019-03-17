@@ -38,17 +38,160 @@
   height: 728px;
 }
 .recruit1 .recruit_content .recruit_left_content {
-  float: left;
-}
-.recruit1 .recruit_content .recruit_left_content li {
   width: 150px;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;;
+   border-right: 1px solid #e5e5e5;
+}
+
+.recruit1 .recruit_content .recruit_left_content li:first-child {
+    border-top: 2px solid #50bcbc;
+    box-sizing: border-box;
+}
+
+.recruit1 .recruit_content .recruit_left_content li.active {
+  color: #50bcbc;
+  cursor: pointer;
+} 
+.recruit1 .recruit_content .recruit_left_content li {
+  /*width: 150px;*/
   height: 45px;
   border-bottom: 1px solid #e5e5e5;
-  border-right: 1px solid #e5e5e5;
   text-align: center;
   line-height: 45px;
   color: #333333;
 }
 .recruit1 .recruit_content .recruit_right_school {
+  width: 1050px;
   float: left;
+}
+.recruit1 .recruit_content .recruit_right_school .school_list {
+    width: 25%;
+    padding: 15px 10px;
+    box-sizing: border-box;;
+    text-align: center;
+    float: left;
+}
+.recruit1 .recruit_content .recruit_right_school .school_list .logo {
+  margin:  0 auto;
+    border: 5px solid  #50bcbc;
+    width: 220px;
+    height: 110px;
+}
+.recruit1 .recruit_content .recruit_right_school .school_list .logo img {
+  width: 100%;
+  height: 100%;
+}
+.recruit1 .recruit_content .recruit_right_school .school_list  p:nth-of-type(1) {
+  color: #333333;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.recruit1 .recruit_content .recruit_right_school .school_list  p:nth-of-type(2) {
+  color:   #fb6f72;
+  margin-top: 10px;
+}
+
+
+
+
+.recruit2 {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+}
+.recruit2 .header {
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 100%;
+  height: 46px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.recruit2 .header .left_box {
+  line-height: 46px;
+  float: left;
+}
+.recruit2 .header .left_box h6 {
+  font-weight: bold;
+  font-size: #333333;
+}
+.recruit2 .header .left_box h6 i {
+  width: 10px;
+  height: 18px;
+  display: inline-block;
+  background: url('img/top_qa.png') no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.recruit2 .header .left_box span {
+  color: #50bcbc;
+}
+.recruit2 .header .right_box {
+  line-height: 46px;
+  float: right;
+}
+.recruit2 .recruit_content {
+  height: 428px;
+}
+.recruit2 .recruit_content .recruit_left_content {
+  width: 150px;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+   border-right: 1px solid #e5e5e5;
+}
+
+.recruit2 .recruit_content .recruit_left_content li:first-child {
+    border-top: 2px solid #50bcbc;
+    box-sizing: border-box;
+}
+
+.recruit2 .recruit_content .recruit_left_content li.active {
+  color: #50bcbc;
+  cursor: pointer;
+} 
+.recruit2 .recruit_content .recruit_left_content li {
+  /*width: 150px;*/
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  line-height: 45px;
+  color: #333333;
+}
+.recruit2 .recruit_content .recruit_right_school {
+  width: 1050px;
+  float: left;
+}
+.recruit2 .recruit_content .recruit_right_school .school_list {
+    width: 25%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    
+}
+.recruit2 .recruit_content .recruit_right_school .school_list .school_list_wrap {
+    border: 1px solid #e5e5e5;
+    padding: 20px 0 10px 0;
+}
+.recruit2 .recruit_content .recruit_right_school .school_list .logo {
+  margin:  0 auto;
+    width: 70px;
+    height: 70px;
+}
+.recruit2 .recruit_content .recruit_right_school .school_list .logo img {
+  width: 100%;
+  height: 100%;
+}
+.recruit2 .recruit_content .recruit_right_school .school_list  p:nth-of-type(1) {
+  color: #333333;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.recruit2 .recruit_content .recruit_right_school .school_list  p:nth-of-type(2) {
+  color:   #fb6f72;
+  margin-top: 10px;
 }
